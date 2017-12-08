@@ -9,41 +9,49 @@
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
      <link type="text/css" rel="stylesheet" href="css/main.css">
+     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+     <script type="text/javascript" src="js/bin/materialize.min.js"></script>
      <script type="text/javascript" src="js/bin/scripts.js"></script>
-     <script type="text/javascript" src="js/jquery.3-2-1.js"></script>
   </head>
   <body>
-    <nav>
-      <ul id="slide-out" class="side-nav fixed">
-         <li><div class="main-nav">
-           <div class="logo-top">
-             <img src="img/logo.png">
-           </div>
-         </div></li>
-         <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-         <li><a href="#!">Second Link</a></li>
-         <li><div class="divider"></div></li>
-         <li><a class="subheader">Subheader</a></li>
-         <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-           <ul class="tabs">
-             <li class="tab col s3"><a href="#test1">Test 1</a></li>
-             <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-             <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
-             <li class="tab col s3"><a href="#test4">Test 4</a></li>
-           </ul>
-           <div id="test1" class="col s12">Test 1</div>
-           <div id="test2" class="col s12">Test 2</div>
-           <div id="test3" class="col s12">Test 3</div>
-           <div id="test4" class="col s12">Test 4</div>
-         </div>
-       </ul>
-       <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-    </nav>
-    <header>
-
+    <div class="nav-fixed">
+      <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Epicenter</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Epicenter</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <header class="parallax-container valign-wrapper">
+      <div class="parallax">
+      <img src="img/header-image.jpg" alt="Epicodus students">
+      </div>
+      <div class="title-box center-align">
+        <a href="#!" class="brand-logo"><img src="img/logo.png" alt=""></a>
+        <h1 class="title">Learn How to program</h1>
+        <div class="subtitle">Free course material for epicodus students</div>
+      </div>
     </header>
     <section>
-
+      <div class="container">
+        <!-- APPLY NOW BUTTON -->
+        <a href="#"><button class="waves-effect waves-light btn" type="button" name="button">Apply Now</button></a>
+        <!-- SEARCH BAR -->
+        <div class="search">
+          <form class="search-form" action="index.html" method="post">
+            <input type="text" placeholder="Search Course Material">
+          </form>
+        </div> <!--SEARC END -->
+       </div> <!--CONTAINER END -->
     </section>
     <footer>
     </footer>

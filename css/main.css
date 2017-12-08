@@ -7260,7 +7260,7 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #00b3b4;
   text-decoration: none; }
   a:hover, a:active, a:focus {
     color: #222222;
@@ -7334,5 +7334,11 @@ header, main, footer {
 @media only screen and (max-width: 992px) {
   header, main, footer {
     padding-left: 0; } }
+.nav-fixed {
+  position: absolute;
+  z-index: 999999999; }
+
+button {
+  color: #00b3b4; }
 
 /*# sourceMappingURL=main.css.map */
