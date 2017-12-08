@@ -9,8 +9,15 @@ ul.tabs {
 }
 
 .tabs .tab {
+  height: 100% !important;
   a {
     color: $brand-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid $brand-color;
+    padding: 1em;
+    transition: .3s ease;
   }
   a:hover {
     color: $brand-color-light;
@@ -18,6 +25,12 @@ ul.tabs {
   a.active {
     text-decoration: underline;
     color: $brand-color-dark;
+    background-color: #00b3b436;
+  }
+  img {
+    height: 60px;
+    width: auto;
+    padding-top: 0;
   }
 }
 

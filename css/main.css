@@ -7345,13 +7345,26 @@ ul.tabs {
   ul.tabs .indicator {
     display: none; }
 
-.tabs .tab a {
-  color: #00b3b4; }
-.tabs .tab a:hover {
-  color: #00ccce; }
-.tabs .tab a.active {
-  text-decoration: underline;
-  color: #008081; }
+.tabs .tab {
+  height: 100% !important; }
+  .tabs .tab a {
+    color: #00b3b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #00b3b4;
+    padding: 1em;
+    transition: .3s ease; }
+  .tabs .tab a:hover {
+    color: #00ccce; }
+  .tabs .tab a.active {
+    text-decoration: underline;
+    color: #008081;
+    background-color: #00b3b436; }
+  .tabs .tab img {
+    height: 60px;
+    width: auto;
+    padding-top: 0; }
 
 .course-detail {
   flex-direction: column;
@@ -7376,6 +7389,9 @@ ul.tabs {
 
 .course-detail {
   color: #444444; }
+
+footer {
+  background-color: #444444; }
 
 button {
   background-color: #00b3b4 !important; }
