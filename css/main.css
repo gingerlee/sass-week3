@@ -7336,9 +7336,22 @@ header, main, footer {
     padding-left: 0; } }
 .nav-fixed {
   position: absolute;
-  z-index: 999999999; }
+  z-index: 999999999;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
+.search {
+  float: left;
+  width: 50%;
+  margin-top: 20px; }
 
 button {
-  color: #00b3b4; }
+  background-color: #00b3b4 !important; }
+  button:hover {
+    background-color: #00ccce !important; }
+
+.apply {
+  float: right;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */

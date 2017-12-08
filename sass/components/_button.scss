@@ -3,5 +3,13 @@
 // -----------------------------------------------------------------------------
 
 button {
-  color: $brand-color;
+  background-color: $brand-color !important;
+  &:hover {
+  background-color: $brand-color-light !important;
+  }
+}
+
+.apply {
+    float: right;
+    margin-top: 20px;
 }

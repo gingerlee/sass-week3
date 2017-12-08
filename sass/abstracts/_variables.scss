@@ -17,7 +17,8 @@ $text-color: rgb(34, 34, 34) !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: #00b3b4 !default;
+$brand-color: #00b3b4;
+$brand-color-light: lighten($brand-color,5%);
 
 /// Light grey
 /// @type Color

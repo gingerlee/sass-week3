@@ -1,4 +1,6 @@
 .nav-fixed {
   position: absolute;
   z-index:999999999;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
