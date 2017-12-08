@@ -7337,6 +7337,26 @@ header, main, footer {
 @media only screen and (max-width: 992px) {
   header, main, footer {
     padding-left: 0; } }
+ul.tabs {
+  flex-direction: column;
+  height: 100%;
+  float: left;
+  width: 100%; }
+  ul.tabs .indicator {
+    display: none; }
+
+.tabs .tab a {
+  color: #00b3b4; }
+.tabs .tab a:hover {
+  color: #00ccce; }
+.tabs .tab a.active {
+  text-decoration: underline;
+  color: #008081; }
+
+.course-detail {
+  flex-direction: column;
+  width: 100%; }
+
 .nav-fixed {
   position: absolute;
   z-index: 999999999;
@@ -7353,6 +7373,9 @@ header, main, footer {
   float: left;
   width: 50%;
   margin-top: 20px; }
+
+.course-detail {
+  color: #444444; }
 
 button {
   background-color: #00b3b4 !important; }

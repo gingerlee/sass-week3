@@ -1,0 +1,27 @@
+ul.tabs {
+  flex-direction: column;
+  height: 100%;
+  float: left;
+  width: 100%;
+  & .indicator {
+    display: none;
+  }
+}
+
+.tabs .tab {
+  a {
+    color: $brand-color;
+  }
+  a:hover {
+    color: $brand-color-light;
+  }
+  a.active {
+    text-decoration: underline;
+    color: $brand-color-dark;
+  }
+}
+
+.course-detail {
+  flex-direction: column;
+  width: 100%;
+}
