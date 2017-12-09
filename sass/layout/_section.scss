@@ -55,6 +55,10 @@ ul.tabs {
 
 .col.course-subtitle {
   margin-bottom: 30px;
-  padding: 20px 40px;
+  padding: 20px 50px !important;
   border-bottom: 1px solid $light-grey;
+}
+
+col.card-image img {
+  padding: 0 !important;
 }

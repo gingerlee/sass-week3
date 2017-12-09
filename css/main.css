@@ -7279,6 +7279,12 @@ body {
   color: #222222;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
+h1.title {
+  font-weight: 100 !important; }
+
+p.subtitle {
+  font-weight: 100 !important; }
+
 /**
  * Clear inner floats
  */
@@ -7399,8 +7405,11 @@ ul.tabs {
 
 .col.course-subtitle {
   margin-bottom: 30px;
-  padding: 20px 40px;
+  padding: 20px 50px !important;
   border-bottom: 1px solid #ededed; }
+
+col.card-image img {
+  padding: 0 !important; }
 
 footer {
   background-color: #444444; }
