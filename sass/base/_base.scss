@@ -35,5 +35,8 @@ a {
 }
 
 body {
-  color: #fff !important;
+  color: #fff;
+}
+img {
+  image-rendering: -webkit-optimize-contrast;
 }

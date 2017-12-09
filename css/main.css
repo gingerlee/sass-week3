@@ -7267,7 +7267,10 @@ a {
     text-decoration: underline; }
 
 body {
-  color: #fff !important; }
+  color: #fff; }
+
+img {
+  image-rendering: -webkit-optimize-contrast; }
 
 /**
  * Basic typography style for copy text
@@ -7337,39 +7340,6 @@ header, main, footer {
 @media only screen and (max-width: 992px) {
   header, main, footer {
     padding-left: 0; } }
-ul.tabs {
-  flex-direction: column;
-  height: 100%;
-  float: left;
-  width: 100%; }
-  ul.tabs .indicator {
-    display: none; }
-
-.tabs .tab {
-  height: 100% !important; }
-  .tabs .tab a {
-    color: #00b3b4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 1px solid #00b3b4;
-    padding: 1em;
-    transition: .3s ease; }
-  .tabs .tab a:hover {
-    color: #00ccce; }
-  .tabs .tab a.active {
-    text-decoration: underline;
-    color: #008081;
-    background-color: #00b3b436; }
-  .tabs .tab img {
-    height: 60px;
-    width: auto;
-    padding-top: 0; }
-
-.course-detail {
-  flex-direction: column;
-  width: 100%; }
-
 .nav-fixed {
   position: absolute;
   z-index: 999999999;
@@ -7387,8 +7357,50 @@ ul.tabs {
   width: 50%;
   margin-top: 20px; }
 
+ul.tabs {
+  flex-direction: column;
+  height: 100%;
+  float: left;
+  width: 60%; }
+  ul.tabs .indicator {
+    display: none; }
+
+.tabs .tab {
+  height: 100% !important; }
+  .tabs .tab a {
+    color: #00b3b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #00b3b4;
+    padding: 1em;
+    transition: .3s ease;
+    border-radius: 3px 3px 0 0; }
+  .tabs .tab a:hover {
+    color: #00ccce;
+    text-decoration: none !important; }
+  .tabs .tab a.active {
+    color: #444444;
+    -webkit-box-shadow: 0px 2px 5px 0px #9c969c;
+    -moz-box-shadow: 0px 2px 5px 0px #9c969c;
+    box-shadow: 0px 2px 5px 0px #9c969c; }
+  .tabs .tab a:focus {
+    text-decoration: none; }
+  .tabs .tab img {
+    height: 50px;
+    width: auto;
+    padding-top: 0; }
+
 .course-detail {
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
   color: #444444; }
+
+.col.course-subtitle {
+  margin-bottom: 30px;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ededed; }
 
 footer {
   background-color: #444444; }
