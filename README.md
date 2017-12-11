@@ -6,6 +6,9 @@
 
 **SASS Week 3:** A personal project that is an extension of a 2-day in-class project. This application redesigns and builds the Epicodus Learn How to Program landing page using SASS.
 
+## Installation
+To view this repository copy this [link](https://gingerlee.github.io/sass-week3/) into the browser of your choice.
+
 ### SASS 2-day Project Feedback
 The past two days in class were spent planning out a redesign of the Learn How to Program landing page for the Epicodus curriculum.
 
@@ -24,7 +27,7 @@ The past two days in class were spent planning out a redesign of the Learn How t
 |**Import** | Sass builds on top of the current CSS @import but instead of requiring an HTTP request, Sass will take the file that you want to import and combine it with the file you're importing into so you can serve a single CSS file to the web browser. | We were able to import various partial files that we creates, as well as the many partial files from the Materialize SASS framework we incorporated.|
 
 ### Changes for this personal project
-Working alone today, I am excited to see how I can use Grid for my first time alone, to see if my understanding holds up. I am excited to work in the console more and import my code changes there to my stylesheet, it seems like a much faster process (also terrifying if the page is accidently refreshed and work is lost), and I plan to commit often to make sure nothing is lost.
+Working alone today, I am excited to work in the console more and import my CSS code changes there to my stylesheet, it seems like a much faster process, and I plan to commit often to make sure nothing is lost. I am not sure how I will set up my grid system yet, either using Materialize or Grid layout. I also want to add in more graphics this time around.
 
 ### Technology Used
 * HTML
