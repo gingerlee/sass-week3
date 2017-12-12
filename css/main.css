@@ -7340,9 +7340,6 @@ p.subtitle {
   position: absolute;
   width: 1px; }
 
-header, main, footer {
-  padding-left: 300px; }
-
 @media only screen and (max-width: 992px) {
   header, main, footer {
     padding-left: 0; } }
@@ -7351,6 +7348,10 @@ header, main, footer {
   z-index: 999999999;
   margin-left: 50%;
   transform: translateX(-50%); }
+
+.parallax-container {
+  display: flex;
+  justify-content: center; }
 
 .title-box {
   color: #fff; }
@@ -7411,8 +7412,8 @@ ul.tabs {
 col.card-image img {
   padding: 0 !important; }
 
-footer {
-  background-color: #444444; }
+.page-footer {
+  background-color: #8d8d8d !important; }
 
 button {
   background-color: #00b3b4 !important; }
