@@ -7421,8 +7421,14 @@ ul.tabs {
 col.card-image img {
   padding: 0 !important; }
 
+.card .card-content p {
+  margin-top: 55px; }
+
 .page-footer {
   background-color: #8d8d8d !important; }
+
+a.grey-text.text-lighten-4 {
+  margin-right: 5px; }
 
 button {
   background-color: #00b3b4 !important; }
