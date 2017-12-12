@@ -5,11 +5,11 @@
 }
 
 ul.tabs {
+  display: flex;
   flex-direction: column;
   height: 100%;
-  float: left;
   width: 60%;
-  & .indicator {
+  .indicator {
     display: none;
   }
 }

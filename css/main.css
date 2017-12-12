@@ -7343,6 +7343,15 @@ p.subtitle {
 @media only screen and (max-width: 992px) {
   header, main, footer {
     padding-left: 0; } }
+@media only screen and (min-width: 993px) {
+  .row .col.l6 {
+    width: 48%;
+    margin: 0 1% 2%; }
+
+  .row .col {
+    padding: 0; }
+    .row .col img {
+      border-radius: 2px; } }
 .nav-fixed {
   position: absolute;
   z-index: 999999999;
@@ -7365,9 +7374,9 @@ p.subtitle {
   margin-top: 20px; }
 
 ul.tabs {
+  display: flex;
   flex-direction: column;
   height: 100%;
-  float: left;
   width: 60%; }
   ul.tabs .indicator {
     display: none; }
